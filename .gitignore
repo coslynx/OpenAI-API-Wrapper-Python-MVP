@@ -1,0 +1,36 @@
+# Ignore build artifacts
+__pycache__/
+*.pyc
+
+# Ignore editor-specific files
+.idea/
+*.suo
+*.user
+*.sln
+*.csproj
+*.vbproj
+*.suo
+
+# Ignore virtual environment
+venv/
+
+# Ignore local development files
+.env
+logs/
+
+# Ignore test files
+tests/
+
+# Ignore documentation files
+docs/
+
+# Ignore compiled files
+*.js.map
+*.css.map
+
+# Ignore Git-related files
+.gitattributes
+.gitmodules
+
+# Ignore unused files
+unused_file.py
